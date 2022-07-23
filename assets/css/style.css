@@ -1,0 +1,75 @@
+body, h3, h2{
+    margin: 0px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    height: 100vh;
+}
+.inputCoin{
+    width: 14em;
+    border: 0px;
+    padding: 0px;
+    height: 1.5em;
+}
+.titleConversor{
+    margin: 0.5em;
+}
+.titleCoin{
+    margin: 0.5em;
+}
+.title{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(131, 210, 255);
+    text-decoration-thickness: 1px;
+    font-size: 3em; 
+}
+.coinSelector{
+    margin-bottom: 1em;
+    width: 14em;
+    height: 1.5em;
+    border: 0px;
+}
+.convert{
+    margin-bottom: 2em;
+    height: 2.5em;
+    width: 14em;
+    background-color: rgb(131, 210, 255);
+    
+}
+.total{
+    color: rgb(131, 210, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.conversorBox{
+    height: 16em;
+    width: 13em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    border-radius: 2.5%;
+    margin-bottom: 1em;
+}
+.graphic{
+    height: 50%;
+    width: 50%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.canvas{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5%;
+    background-color: aliceblue;
+    
+}
